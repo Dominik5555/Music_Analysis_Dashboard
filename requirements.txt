@@ -1,0 +1,11 @@
+matplotlib>=3.7
+numpy>=1.24
+pandas>=2.0
+tqdm>=4.65
+feather-format>=0.4
+panel>=1.3
+bokeh>=3.3
+geopandas>=0.14
+ipyleaflet>=0.18
+prettytable>=3.9
+folium>=0.15
