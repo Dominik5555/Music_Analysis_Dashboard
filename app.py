@@ -1512,7 +1512,7 @@ template = pn.template.MaterialTemplate(
 )
 
 # Serve the dashboard
-template.show()
+template.servable()
 
 
 
