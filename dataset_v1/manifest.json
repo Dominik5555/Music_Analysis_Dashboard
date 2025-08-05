@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "parquet_engine": "pyarrow",
+  "frames": {
+    "df_all_countries": {
+      "n_rows": 14640001,
+      "n_cols": 10,
+      "columns": {
+        "uid": "int16",
+        "tid": "int32",
+        "LEs": "int16",
+        "artist": "category",
+        "track": "category",
+        "artist_country": "category",
+        "user_country": "category",
+        "age": "int8",
+        "gender": "category",
+        "time": "category"
+      },
+      "categories": [
+        "artist",
+        "track",
+        "artist_country",
+        "user_country",
+        "gender",
+        "time"
+      ],
+      "chunks": [
+        "df_all_countries/df_all_countries_part0.parquet",
+        "df_all_countries/df_all_countries_part1.parquet",
+        "df_all_countries/df_all_countries_part2.parquet",
+        "df_all_countries/df_all_countries_part3.parquet",
+        "df_all_countries/df_all_countries_part4.parquet",
+        "df_all_countries/df_all_countries_part5.parquet"
+      ],
+      "compression": "snappy"
+    },
+    "df_active_countries": {
+      "n_rows": 8466596,
+      "n_cols": 10,
+      "columns": {
+        "uid": "int16",
+        "tid": "int32",
+        "LEs": "int16",
+        "artist": "category",
+        "track": "category",
+        "artist_country": "category",
+        "user_country": "category",
+        "age": "int8",
+        "gender": "category",
+        "time": "category"
+      },
+      "categories": [
+        "artist",
+        "track",
+        "artist_country",
+        "user_country",
+        "gender",
+        "time"
+      ],
+      "chunks": [
+        "df_active_countries/df_active_countries_part0.parquet",
+        "df_active_countries/df_active_countries_part1.parquet",
+        "df_active_countries/df_active_countries_part2.parquet",
+        "df_active_countries/df_active_countries_part3.parquet"
+      ],
+      "compression": "snappy"
+    },
+    "df_all_countries_tags": {
+      "n_rows": 11135197,
+      "n_cols": 12,
+      "columns": {
+        "uid": "int16",
+        "tid": "int32",
+        "LEs": "int16",
+        "artist": "category",
+        "track": "category",
+        "artist_country": "category",
+        "user_country": "category",
+        "age": "int8",
+        "gender": "category",
+        "time": "category",
+        "genre": "category",
+        "over_genre": "category"
+      },
+      "categories": [
+        "artist",
+        "track",
+        "artist_country",
+        "user_country",
+        "gender",
+        "time",
+        "genre",
+        "over_genre"
+      ],
+      "chunks": [
+        "df_all_countries_tags/df_all_countries_tags_part0.parquet",
+        "df_all_countries_tags/df_all_countries_tags_part1.parquet",
+        "df_all_countries_tags/df_all_countries_tags_part2.parquet",
+        "df_all_countries_tags/df_all_countries_tags_part3.parquet",
+        "df_all_countries_tags/df_all_countries_tags_part4.parquet"
+      ],
+      "compression": "snappy"
+    },
+    "df_active_countries_tags": {
+      "n_rows": 6356047,
+      "n_cols": 12,
+      "columns": {
+        "uid": "int16",
+        "tid": "int32",
+        "LEs": "int16",
+        "artist": "category",
+        "track": "category",
+        "artist_country": "category",
+        "user_country": "category",
+        "age": "int8",
+        "gender": "category",
+        "time": "category",
+        "genre": "category",
+        "over_genre": "category"
+      },
+      "categories": [
+        "artist",
+        "track",
+        "artist_country",
+        "user_country",
+        "gender",
+        "time",
+        "genre",
+        "over_genre"
+      ],
+      "chunks": [
+        "df_active_countries_tags/df_active_countries_tags_part0.parquet",
+        "df_active_countries_tags/df_active_countries_tags_part1.parquet",
+        "df_active_countries_tags/df_active_countries_tags_part2.parquet"
+      ],
+      "compression": "snappy"
+    }
+  }
+}
