@@ -9,3 +9,4 @@ geopandas>=0.14
 ipyleaflet>=0.18
 prettytable>=3.9
 folium>=0.15
+nbconvert
