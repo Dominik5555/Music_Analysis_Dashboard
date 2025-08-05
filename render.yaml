@@ -5,7 +5,7 @@ services:
     repo: https://github.com/Dominik5555/Music_Analysis_Dashboard
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: panel serve notebook_for_github.ipynb --address 0.0.0.0 --port $PORT --allow-websocket-origin=music-analysis-dashboard.onrender.com
+    startCommand: panel serve demo_nb.ipynb --address 0.0.0.0 --port $PORT --allow-websocket-origin=music-analysis-dashboard.onrender.com
     envVars:
       - key: BOKEH_ALLOW_WS_ORIGIN
         value: music-analysis-dashboard.onrender.com
